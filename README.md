@@ -1,2 +1,2 @@
-# VIm and I
+# Vim and I
 on vim
