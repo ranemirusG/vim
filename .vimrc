@@ -9,7 +9,7 @@
 "               
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""      
 
-" autosave folding // source: https://vim.fandom.com/wiki/Make_views_automatic
+" autosave folding // https://vim.fandom.com/wiki/Make_views_automatic
 autocmd BufWinLeave *.* mkview!
 autocmd BufWinEnter *.* silent loadview
 
@@ -17,10 +17,6 @@ autocmd BufWinEnter *.* silent loadview
 "COLORS:
 "colorscheme molokai
 "colorscheme deus
-
-" muchas cosas de esta  configuracion copiada de https://www.freecodecamp.org/news/vimrc-configuration-guide-customize-your-vim-editor/
-" está bueno como lo divide en categorías Luke Smith: basics, por ejemplo.
-" Tambien lo  de indentar 
 
 "set fileencodings=ucs-bom,utf-8,latin1
 
@@ -39,7 +35,6 @@ filetype plugin on
 
 " Load an indent file for the detected file type.
 filetype indent on
-
 
 " Turn syntax highlighting on.
 syntax on
